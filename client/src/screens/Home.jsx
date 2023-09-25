@@ -23,7 +23,7 @@ const Home = () => {
       <Animation />
       <div className="imgdiv div1">
         <Input className='searchInput' value={searchVal} onChange={(e) => setSearchVal(e.target.value)} variant={'filled'} color={"#222"}
-          placeholder='Search Train by ID' />
+          placeholder='Search Train by ID : 12345' />
         <Button onClick={handelSearch} colorScheme='blue' variant='solid'>
           <FiSearch size={24} />
         </Button>

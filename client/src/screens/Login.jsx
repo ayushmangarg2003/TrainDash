@@ -41,12 +41,12 @@ const Login = () => {
         <div className="bottom">
           <div className="form">
             <Input value={uniqueID}
-              onChange={(e) => setUniqueID(e.target.value)} variant='outline' placeholder='Enter ID' />
+              onChange={(e) => setUniqueID(e.target.value)} variant='outline' placeholder='Username: ayushman' />
             <InputGroup size='md'>
               <Input
                 pr='4.5rem'
                 type={show ? 'text' : 'password'}
-                placeholder='Enter password'
+                placeholder='Password: ayushman'
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
