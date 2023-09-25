@@ -3,9 +3,7 @@ import React, { useState } from 'react'
 import { Button, Input, InputGroup, InputRightElement } from '@chakra-ui/react'
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-
-
-const backendLink = "https://train-dash-server.onrender.com"
+import { backendLink } from '../utils/constants';
 
 const Login = () => {
   let navigate = useNavigate();
@@ -15,7 +13,7 @@ const Login = () => {
   const [error, setError] = useState(null);
 
   const handleClick = () => setShow(!show)
-
+ 
   const handelLogin = async (e) => {
     e.preventDefault()
     const user = { uniqueID: uniqueID, password: password }

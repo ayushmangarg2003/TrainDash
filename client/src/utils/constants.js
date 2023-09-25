@@ -42,3 +42,5 @@ export const TrainData = [
         ]
     }
 ]
+
+export const backendLink = "https://train-dash-server.onrender.com"
