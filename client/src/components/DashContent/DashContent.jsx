@@ -5,8 +5,8 @@ import React from 'react';
 import { Box, Button, Tab, TabList, TabPanel, TabPanels, Tabs, useMultiStyleConfig, useTab } from "@chakra-ui/react";
 import { TrainData } from "../../utils/constants";
 import WagonDetail from "../WagonDetail/WagonDetail";
-import wagon from '../../assets/wagon.png'
-import selectedWagon from '../../assets/selectedWagon.jpg'
+import wagon from '../../assets/wagon.webp'
+import selectedWagon from '../../assets/selectedWagon.webp'
 
 const DashContent = (props) => {
   const CustomTab = React.forwardRef((props, ref) => {

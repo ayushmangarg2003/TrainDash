@@ -1,7 +1,7 @@
 import React from 'react'
 import { Heading } from '@chakra-ui/react'
 import { useNavigate } from "react-router-dom";
-import pagenotfound from '../../assets/pagenotfound.svg'
+import pagenotfound from '../../assets/pagenotfound.webp'
 
 const Invalid = () => {
 

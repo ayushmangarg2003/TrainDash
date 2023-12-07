@@ -1,3 +1,6 @@
+// 
+
+
 export const TrainData = [
     {
         id :"12345",
@@ -42,5 +45,3 @@ export const TrainData = [
         ]
     }
 ]
-
-export const backendLink = "https://train-dash-server.onrender.com"

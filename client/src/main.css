@@ -75,7 +75,7 @@
 
 .login .right {
     width: 50%;
-    background-image: url('./assets/div2.jpg');
+    background-image: url('./assets/loginBG.webp');
     background-size: cover;
     background-position: bottom;
 }
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./assets/homeBG.jpg');
+    background: url('./assets/homeBG.webp');
     background-size: cover;
     background-position: bottom;
     padding: 4rem 6rem;
@@ -166,7 +166,6 @@
     height: 100%;
     background-color: #e0e0e0;
     overflow-y: scroll;
-    /* background: url('./assets/div1.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -368,7 +367,6 @@
         display: none;
     }
     .login{
-        background: url('./assets/loginBG.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
