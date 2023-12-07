@@ -34,7 +34,7 @@ const DashContent = (props) => {
         <h1>Wagons</h1>
         <div className="tabs">
           {TrainData[props.index].WagonArr.map((item, index) => (
-            <div className="wagonShape">
+            <div className="wagonShape" key={index}>
               <CustomTab
                 width={"6.75rem"}
                 height={'4rem'}

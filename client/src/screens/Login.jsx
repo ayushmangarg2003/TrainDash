@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { Button, Input, InputGroup, InputRightElement } from '@chakra-ui/react'
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-// import { backendLink } from '../utils/constants';
 
 const Login = () => {
   let navigate = useNavigate();
@@ -16,15 +15,6 @@ const Login = () => {
 
   const handelLogin = async (e) => {
     e.preventDefault()
-    // const user = { uniqueID: uniqueID, password: password }
-    // await axios.post(`${backendLink}/api/auth/login`, user)
-    //   .then((response) => {
-    //     setUniqueID("");
-    //     setPassword("");
-    //     navigate("/home");
-    //   }).catch((err) => {
-    //     setError(err.response.data.error)
-    //   })
   }
 
   return (
