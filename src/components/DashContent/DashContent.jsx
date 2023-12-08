@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { Box, Button, Tab, TabList, TabPanel, TabPanels, Tabs, useMultiStyleConfig, useTab } from "@chakra-ui/react";
+import { Button, TabList, TabPanel, TabPanels, Tabs, useMultiStyleConfig, useTab } from "@chakra-ui/react";
 import { TrainData } from "../../utils/constants";
 import WagonDetail from "../WagonDetail/WagonDetail";
 import wagon from '../../assets/wagon.webp'
@@ -47,7 +47,7 @@ const DashContent = (props) => {
                 color={'whiteAlpha.900'}
                 fontSize={'lg'}
                 fontWeight={600}
-                _selected={{ fontSize:'2xl' ,color: "black", fontWeight: 900 }}
+                _selected={{ fontSize: '2xl', color: "black", fontWeight: 900 }}
                 key={index}
               >
                 {index + 1} <br />
