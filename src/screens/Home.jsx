@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import { Button, Input } from '@chakra-ui/react'
 import { FiSearch } from 'react-icons/fi'
-import Animation from "../components/Animation/Animation"
 import { useNavigate } from "react-router-dom";
-import { useEffect } from 'react';
 
 const Home = () => {
   const [searchVal, setSearchVal] = useState("")
@@ -20,7 +18,6 @@ const Home = () => {
 
   return (
     <div className="parent">
-      <Animation />
       <div className="div1">
         <Input className='searchInput' value={searchVal} onChange={(e) => setSearchVal(e.target.value)} variant={'filled'} color={"#222"}
           placeholder='Search Train by ID : 12345' />

@@ -21,7 +21,7 @@
 }
 
 .login .left {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -74,10 +74,10 @@
 }
 
 .login .right {
-    width: 50%;
+    width: 60%;
     background-image: url('./assets/loginBG.webp');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 /* HOME */

@@ -15,6 +15,7 @@ const Login = () => {
 
   const handelLogin = async (e) => {
     e.preventDefault()
+    navigate('/home')
   }
 
   return (
